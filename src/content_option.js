@@ -12,7 +12,7 @@ const introdata = {
         third: "I build tech solutions",
     },
     description: "Passionate about technology and coding, I aim to become the greatest AI expert in the world. I recently graduated from Prempeh College and am continuously learning and working on tech projects.",
-    your_img_url: "./src/assets/images", // You can replace this with a real image of Mewuramu if available
+    your_img_url: "/src/assets/images", // You can replace this with a real image of Mewuramu if available
 };
 
 const dataabout = {
@@ -68,7 +68,7 @@ const services = [
 
 const dataportfolio = [
     {
-        img: "https://unsplash.com/photos/boy-in-front-of-computer-monitor-vJP-wZ6hGBg",
+        img: "https://picsum.photos/400/?grayscale",
         description: "Developed a machine learning model to predict student performance.",
         link: "#",
     },
