@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import * as emailjs from "@emailjs/browser";
+import * as emailjs from "@emailjs-com";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
@@ -34,7 +34,6 @@ export const ContactUs = () => {
         contactConfig.YOUR_TEMPLATE_ID,
         templateParams,
         contactConfig.YOUR_USER_ID,
-        form.current, 
         {
         publicKey: contactConfig.YOUR_PUBLIC_KEY,
       })
