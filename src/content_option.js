@@ -12,7 +12,7 @@ const introdata = {
         third: "I build tech solutions",
     },
     description: "Passionate about technology and coding, I aim to become the greatest AI expert in the world. I recently graduated from Prempeh College and am continuously learning and working on tech projects.",
-    your_img_url: "https://photos.app.goo.gl/YgsuG1SrNdh6AX237", // You can replace this with a real image of Mewuramu if available
+    your_img_url: "https://imgur.com/Lxs4NM8", // You can replace this with a real image of Mewuramu if available
 };
 
 const dataabout = {
