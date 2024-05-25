@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import {
   FaGithub,
-  FaX,
+  FaTwitter,
   FaFacebookF,
   FaLinkedin,
   FaYoutube,
@@ -14,10 +14,10 @@ export const Socialicons = (params) => {
   return (
     <div className="stick_follow_icon">
       <ul>
-        {socialprofils.x && (
+        {socialprofils.twitter && (
           <li>
-            <a href={socialprofils.x}>
-              <FaX />
+            <a href={socialprofils.twitter}>
+              <FaTwitter />
             </a>
           </li>
         )}
