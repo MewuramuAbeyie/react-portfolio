@@ -1,4 +1,6 @@
 import lp_dp from "./assets/images/lp_dp.jpg";
+import dark_img from "./assets/images/mxa_dp.png";
+import light_img from "./assets/images/Subject.svg"
 
 const logotext = "MEWURAMU";
 const meta = {
@@ -14,7 +16,9 @@ const introdata = {
         third: "I build tech solutions",
     },
     description: "Passionate about technology and coding, I aim to become the greatest AI expert in the world. I recently graduated from Prempeh College and am continuously learning and working on tech projects.",
-    your_img_url: lp_dp // You can replace this with a real image of Mewuramu if available
+    your_img_url: lp_dp,
+    dark_img_url: dark_img,
+    light_img_url: light_img,
 };
 
 const dataabout = {

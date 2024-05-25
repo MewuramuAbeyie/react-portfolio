@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
@@ -6,6 +6,17 @@ import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
+  const [imageUrl, setImageUrl] = useState("");
+
+  useEffect(() => {
+    let darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    setImageUrl(
+      darkModeMediaQuery.matches
+        ? introdata.dark_img_url
+        : introdata.light_img_url
+    );
+  }, []);
+
   return (
     <HelmetProvider>
       <section id="home" className="home">
@@ -16,8 +27,8 @@ export const Home = () => {
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
-            className="h_bg-image order-1 order-lg-2 h-100 "
-            style={{ backgroundImage: `url(${introdata.your_img_url})` }}
+            className="h_bg-image order-1 order-lg-2 h-100"
+            style={{ backgroundImage: `url(${imageUrl})` }}
           ></div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
