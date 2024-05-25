@@ -23,7 +23,7 @@ export const Home = () => {
     checkMode();
   }, []);
 
-  // Auto refresh the page to change the image url every 10 seconds
+  // Auto refresh the page to change the image url every 0.005 seconds
   setInterval(() => {
     checkMode();
   }, 0.005);
