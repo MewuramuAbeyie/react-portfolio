@@ -8,12 +8,12 @@ import p3 from "./assets/images/fintech_p3.webp";
 
 const logotext = "MEWURAMU";
 const meta = {
-    title: "Mewuramu X Abeyei",
-    description: "I’m Mewuramu X Abeyei, an aspiring AI expert and tech enthusiast from Tema, Ghana.",
+    title: "Mewuramu X Abeyie",
+    description: "I’m Mewuramu X Abeyie, an aspiring AI expert and tech enthusiast from Tema, Ghana.",
 };
 
 const introdata = {
-    title: "I’m Mewuramu X Abeyei",
+    title: "I’m Mewuramu X Abeyie",
     animated: {
         first: "I love coding",
         second: "I explore AI",
@@ -83,17 +83,17 @@ const services = [
 const dataportfolio = [
     {
         img: p1,
-        description: "Developed a machine learning model to predict student performance.",
+        description: "Will be Developing a machine learning model to predict student performance.",
         link: "#",
     },
     {
         img: p2,
-        description: "Built a responsive website for a local business.",
+        description: "Will be building a responsive website for a local business.",
         link: "#",
     },
     {
         img: p3,
-        description: "Created a mobile app to help manage personal finances.",
+        description: "Will be creating a mobile app to help manage personal finances.",
         link: "#",
     },
 ];
