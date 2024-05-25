@@ -12,7 +12,7 @@ const introdata = {
         third: "I build tech solutions",
     },
     description: "Passionate about technology and coding, I aim to become the greatest AI expert in the world. I recently graduated from Prempeh College and am continuously learning and working on tech projects.",
-    your_img_url: "/src/assets/images", // You can replace this with a real image of Mewuramu if available
+    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d", // You can replace this with a real image of Mewuramu if available
 };
 
 const dataabout = {
@@ -73,12 +73,12 @@ const dataportfolio = [
         link: "#",
     },
     {
-        img: "https://gdurl.com/CD15",
+        img: "https://picsum.photos/400/300/?grayscale",
         description: "Built a responsive website for a local business.",
         link: "#",
     },
     {
-        img: "https://gdurl.com/ssHD",
+        img: "https://picsum.photos/400/?grayscale",
         description: "Created a mobile app to help manage personal finances.",
         link: "#",
     },
