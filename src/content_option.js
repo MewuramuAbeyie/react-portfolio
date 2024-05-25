@@ -1,3 +1,5 @@
+import lp_dp from "./assets/images/lp_dp.jpg";
+
 const logotext = "MEWURAMU";
 const meta = {
     title: "Mewuramu X Abeyei",
@@ -12,7 +14,7 @@ const introdata = {
         third: "I build tech solutions",
     },
     description: "Passionate about technology and coding, I aim to become the greatest AI expert in the world. I recently graduated from Prempeh College and am continuously learning and working on tech projects.",
-    your_img_url: "./assets/images/lp_dp.jpg", // You can replace this with a real image of Mewuramu if available
+    your_img_url: lp_dp // You can replace this with a real image of Mewuramu if available
 };
 
 const dataabout = {
