@@ -1,157 +1,105 @@
-const logotext = "JOHN";
+const logotext = "MEWURAMU";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Mewuramu X Abeyei",
+    description: "I’m Mewuramu X Abeyei, an aspiring AI expert and tech enthusiast from Tema, Ghana.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Mewuramu X Abeyei",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "I explore AI",
+        third: "I build tech solutions",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Passionate about technology and coding, I aim to become the greatest AI expert in the world. I recently graduated from Prempeh College and am continuously learning and working on tech projects.",
+    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d", // You can replace this with a real image of Mewuramu if available
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about myself",
+    aboutme: "I am an 18-year-old tech enthusiast from Tema, Ghana. I have a strong passion for coding, AI, and continuous learning. My goal is to leverage technology to solve real-world problems and make a significant impact in the field of artificial intelligence.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
+
+const worktimeline = [
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "High School Graduate",
+        where: "Prempeh College, Kumasi",
+        date: "2023",
     },
 ];
 
-const skills = [{
+const skills = [
+    {
         name: "Python",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "JavaScript",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "C++",
         value: 80,
     },
     {
         name: "React",
-        value: 60,
+        value: 75,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Rust",
+        value: 70,
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const services = [
+    {
+        title: "AI & Machine Learning",
+        description: "Developing and exploring AI models and machine learning algorithms to create innovative solutions.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Development",
+        description: "Building responsive and dynamic websites using the latest web technologies.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Mobile App Development",
+        description: "Creating user-friendly and efficient mobile applications for various platforms.",
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+const dataportfolio = [
+    {
+        img: "https://gdurl.com/9ABW",
+        description: "Developed a machine learning model to predict student performance.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://gdurl.com/CD15",
+        description: "Built a responsive website for a local business.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://gdurl.com/ssHD",
+        description: "Created a mobile app to help manage personal finances.",
         link: "#",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
+    YOUR_EMAIL: "mewuramu@gmail.com",
+    YOUR_FONE: "+233202419977",
+    description: "Feel free to reach out to me for collaborations or any inquiries. I'm always open to discussing new projects and opportunities.",
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/MewuramuAbeyie",
+    facebook: "https://web.facebook.com/profile.php?id=100009767175146",
+    linkedin: "https://www.linkedin.com/in/mewuramuxabeyie/",
+    x: "https://x.com/mewuramuxabeyie",
 };
+
 export {
     meta,
     dataabout,
