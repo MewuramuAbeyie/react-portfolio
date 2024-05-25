@@ -68,7 +68,7 @@ const services = [
 
 const dataportfolio = [
     {
-        img: "https://gdurl.com/9ABW",
+        img: "https://unsplash.com/photos/boy-in-front-of-computer-monitor-vJP-wZ6hGBg",
         description: "Developed a machine learning model to predict student performance.",
         link: "#",
     },
