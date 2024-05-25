@@ -1,6 +1,10 @@
 import lp_dp from "./assets/images/lp_dp.jpg";
 import dark_img from "./assets/images/mxa_dp.png";
-import light_img from "./assets/images/Subject.svg"
+import light_img from "./assets/images/Subject.svg";
+
+import p1 from "./assets/images/AI_ML_Student_performance_p1.webp";
+import p2 from "./assets/images/Company_webapp_p2.webp";
+import p3 from "./assets/images/fintech_p3.webp";
 
 const logotext = "MEWURAMU";
 const meta = {
@@ -15,7 +19,7 @@ const introdata = {
         second: "I explore AI",
         third: "I build tech solutions",
     },
-    description: "Passionate about technology and coding, I aim to become the greatest AI expert in the world. I recently graduated from Prempeh College and am continuously learning and working on tech projects.",
+    description: "Passionate about technology and coding, I aim to become the greatest AI expert in the world. I recently graduated from High School and am continuously learning and working on tech projects.",
     your_img_url: lp_dp,
     dark_img_url: dark_img,
     light_img_url: light_img,
@@ -23,38 +27,42 @@ const introdata = {
 
 const dataabout = {
     title: "A bit about myself",
-    aboutme: "I am an 18-year-old tech enthusiast from Tema, Ghana. I have a strong passion for coding, AI, and continuous learning. My goal is to leverage technology to solve real-world problems and make a significant impact in the field of artificial intelligence.",
+    aboutme: "I am an 18-year-old tech enthusiast from Accra, Ghana. I have a strong passion for coding, AI, and continuous learning. My goal is to leverage technology to solve real-world problems and make a significant impact in the field of artificial intelligence.",
 };
 
 const worktimeline = [
     {
-        jobtitle: "High School Graduate",
-        where: "Prempeh College, Kumasi",
-        date: "2023",
+        jobtitle: "Software Engineering - FreeLancer",
+        where: "Remote",
+        date: "2024",
     },
 ];
 
 const skills = [
-    {
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "JavaScript",
-        value: 85,
-    },
-    {
-        name: "C++",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 75,
-    },
-    {
-        name: "Rust",
-        value: 70,
-    },
+  {
+    name: "Python",
+    value: 90,
+  },
+  {
+    name: "JavaScript",
+    value: 85,
+  },
+  {
+    name: "C/C++",
+    value: 60,
+  },
+  {
+    name: "React",
+    value: 75,
+  },
+  {
+    name: "Rust",
+    value: 20,
+  },
+  {
+    name: "C# / .NET",
+    value: 70,
+  },
 ];
 
 const services = [
@@ -74,17 +82,17 @@ const services = [
 
 const dataportfolio = [
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: p1,
         description: "Developed a machine learning model to predict student performance.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: p2,
         description: "Built a responsive website for a local business.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: p3,
         description: "Created a mobile app to help manage personal finances.",
         link: "#",
     },
