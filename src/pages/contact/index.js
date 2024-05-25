@@ -33,10 +33,8 @@ export const ContactUs = () => {
         contactConfig.YOUR_SERVICE_ID,
         contactConfig.YOUR_TEMPLATE_ID,
         templateParams,
-        contactConfig.YOUR_USER_ID,
-        {
-        publicKey: contactConfig.YOUR_PUBLIC_KEY,
-      })
+        contactConfig.YOUR_USER_ID
+      )
       .then(
         (result) => {
           console.log(result.text);
