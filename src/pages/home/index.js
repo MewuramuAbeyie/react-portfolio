@@ -6,16 +6,28 @@ import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
+  // initial state for the image url
   const [imageUrl, setImageUrl] = useState("");
 
+  // check current mode selected by user
+  const checkMode = () => {
+    if (localStorage.getItem("theme") === "dark") {
+      setImageUrl(introdata.dark_img_url);
+    } else {
+      setImageUrl(introdata.light_img_url);
+    }
+  };
+
+  // change image url based on user's mode selection
   useEffect(() => {
-    let darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-    setImageUrl(
-      darkModeMediaQuery.matches
-        ? introdata.dark_img_url
-        : introdata.light_img_url
-    );
+    checkMode();
   }, []);
+
+  // Auto refresh the page to change the image url every 10 seconds
+  setInterval(() => {
+    checkMode();
+  }, 0.005);
+
 
   return (
     <HelmetProvider>
