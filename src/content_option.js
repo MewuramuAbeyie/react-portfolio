@@ -91,6 +91,7 @@ const contactConfig = {
     YOUR_SERVICE_ID: "mxa_portfolio_contact",
     YOUR_TEMPLATE_ID: "template_hfay731",
     YOUR_USER_ID: "Mewuramu_Abeyie",
+    YOUR_PUBLIC_KEY: "9tc0kmbzKqJcuh5sJ",
 };
 
 const socialprofils = {
