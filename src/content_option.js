@@ -89,7 +89,7 @@ const contactConfig = {
     YOUR_FONE: "+233202419977",
     description: "Feel free to reach out to me for collaborations or any inquiries. I'm always open to discussing new projects and opportunities.",
     YOUR_SERVICE_ID: "mxa_portfolio_contact",
-    YOUR_TEMPLATE_ID: "template_hfay731",
+    YOUR_TEMPLATE_ID: "template_c5a7lp4",
     YOUR_USER_ID: "9tc0kmbzKqJcuh5sJ",
 };
 
